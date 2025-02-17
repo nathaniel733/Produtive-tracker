@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Productivity Tracker & Tab Manager",
+    "version": "1.1",
+    "description": "Tracks time spent on websites and manages tabs with sessions.",
+    "permissions": ["storage", "activeTab", "scripting", "tabs", "sessions"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
